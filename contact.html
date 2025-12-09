@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bethany's Pie Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/coffecup.png" width="30" height="30" class="d-inline-block align-top"
+                        alt="Kaffekompaniet Logo">
+                    Kaffekompaniet
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="nav navbar-nav mr-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html">Hem</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">Produkter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Om oss</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container" role="main">
+
+        <div class="container history">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h2 class="pb-2 mb-2 mt-4">
+                        Våran kaffehistoria
+                    </h2>
+                    <p>
+                        Sed faucibus nec enim non placerat. Fusce dui nibh, interdum in orci et, fermentum fermentum lacus.
+                        Mauris neque tellus, tincidunt ac mattis et, placerat ut sapien. Curabitur ut turpis efficitur libero
+                        eleifend consequat eget at dolor. Donec ac arcu vel nisi dapibus accumsan. Sed quis varius ante.
+                        Curabitur et mauris eros. Nunc iaculis nibh ut leo tristique, a gravida libero auctor. Nam laoreet,
+                        nibh non eleifend placerat, risus ante interdum nisi, eu tempus turpis odio sit amet libero.
+                    </p>
+                    <p>
+                        Etiam sit amet rutrum dui. Etiam volutpat dui in metus ornare, eget aliquam mi feugiat. Curabitur
+                        auctor nec odio vitae porttitor. Quisque at scelerisque risus. Fusce sollicitudin magna eu accumsan
+                        finibus. Maecenas et lobortis nisi. Phasellus dignissim sem vel nunc laoreet rhoncus. Ut euismod nulla
+                        in sollicitudin condimentum. Morbi commodo, dui ornare aliquam vehicula, lacus dolor blandit urna, sit
+                        amet cursus nunc nibh aliquet tortor. Praesent convallis aliquet nulla quis vulputate. Maecenas non
+                        tortor viverra turpis hendrerit mollis nec at lorem. Mauris convallis laoreet venenatis. Integer
+                        malesuada consectetur libero at consequat.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container history">
+            <h2 class="pb-4 mb-2 mt-5">Kontakta oss gärna</h2>
+            <div class="row row-cols-1 row-cols-lg-2 row-cols-xxl-3 g-4">
+                <div class="col">
+                    <div class="card rounded mb-4 shadow-sm">
+                        <img class="card-img-top" src="images/profilephoto.png">
+                        <div class="card-body">
+                            <h5 class="card-title">VD</h5>
+                            <p class="card-text"><strong>Förnamn Efternamn</strong></p>
+                            <p class="m-0">Tel. +46 x xx xx xx xx</p>
+                            <a class="m-0" href="mailto:förnamn.efternamn@kaffekompaniet.com">förnamn.efternamn@kaffekompaniet.com</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card rounded mb-4 shadow-sm">
+                        <img class="card-img-top" src="images/profilephoto.png">
+                        <div class="card-body">
+                            <h5 class="card-title">HR</h5>
+                            <p class="card-text"><strong>Förnamn Efternamn</strong></p>
+                            <p class="m-0">Tel. +46 x xx xx xx xx</p>
+                            <a class="m-0" href="mailto:förnamn.efternamn@kaffekompaniet.com">förnamn.efternamn@kaffekompaniet.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p class="footerItems">&copy; <span id="copyright-year"></span> Kaffekompaniet</p>
+            <p class="footerItems">Webmaster: <a href="mailto:webmaster@kaffekompaniet.com">webmaster@kaffekompaniet.com</a></p>
+        </div>
+    </footer>
+
+    <!-- For the navbar-toggler -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        document.getElementById("copyright-year").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+
+</html>
